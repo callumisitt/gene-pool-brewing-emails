@@ -87,7 +87,7 @@ function sass() {
 function images() {
   return gulp.src('src/assets/img/**/*')
     .pipe($.imagemin())
-    .pipe(gulp.dest('./dist/assets/img'));
+    .pipe(gulp.dest('./dist'));
 }
 
 // Inline CSS and minify HTML

@@ -17,14 +17,18 @@ html,
 }
 
 // Full Width Headers
-.pre-header.header
-{
+.pre-header.header {
 	background: #000;
 
 	p {
-		text-align: right;
+		padding-top: 0;
+		padding-bottom: 0;
 	}
 
+	a {
+		color: #ffffff;
+		text-decoration: underline;
+	}
 }
 
 .header {
@@ -51,19 +55,21 @@ html,
 
 // Pump Clip
 .pump-clip,
-.pump-clip .container
-{
+.pump-clip .container {
 	background: #fd6b0d;
 
 	.logo {
-		margin-top: -50px;
+		Margin-top: -50px;
+	}
+
+	.columns {
+		padding-bottom: 0;
 	}
 }
 
 // Main body
 .body-copy,
-.body-copy .container
-{
+.body-copy .container {
 	background: #c35107;
 
 	h1, p {
@@ -75,8 +81,48 @@ html,
 		text-transform: uppercase;
 	}
 
+	a {
+		color: #ffffff;
+		text-decoration: underline;
+	}
+
 	.lead {
 		font-weight: bold;
+	}
+}
+
+// Availability
+.availability {
+	background: #ffffff;
+}
+
+.availability-header {
+	color: #fd6b0d;
+	text-align: center;
+	text-transform: uppercase;
+}
+
+// Footer
+.footer,
+.footer .container {
+	background: #000000;
+
+	h3 {
+		margin-bottom: 0;
+		color: #ffffff;
+		font-size: 20px;
+		text-align: center;
+		text-transform: uppercase;
+	}
+
+	a {
+		color: #ffffff;
+		text-decoration: underline;
+	}
+
+	.tagline,
+	.social {
+		padding-bottom: 0;
 	}
 }
 
