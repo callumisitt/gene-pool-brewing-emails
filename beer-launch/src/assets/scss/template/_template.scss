@@ -46,21 +46,43 @@ html,
 }
 
 .header .wrapper-inner {
-  padding: 20px;
+  padding-top: 20px;
 }
 
 .header .container {
   background: transparent;
 }
 
+th.columns.logo-container {
+	display: table-cell !important;
+	width: 98px !important;
+	padding-left: 0 !important;
+	padding-right: 0 !important;
+}
+
+table.body .columns.logo-side {
+	display: table-cell !important;
+	width: auto !important;
+	padding: 0 !important;
+	background-color: #FD6B0D;
+
+	.row {
+		height: 47px;
+	}
+
+	.black {
+		background-color: #000000;
+	}
+}
+
+.logo {
+	min-width: 100% !important;
+}
+
 // Pump Clip
 .pump-clip,
 .pump-clip .container {
 	background: #fd6b0d;
-
-	.logo {
-		Margin-top: -50px;
-	}
 
 	.columns {
 		padding-bottom: 0;
