@@ -1,0 +1,172 @@
+// These are the styles to make some of the templates look extra nice.
+// Feel free to remove these styles for production!
+
+$primary-color: #d42426;
+$primary-color-off: darken(#d42426, 10%);
+
+// Body Styles
+body,
+html,
+.body {
+  background: #f3f3f3 !important;
+}
+
+.container.header {
+  background: #f3f3f3;
+}
+
+.body-drip {
+  border-top: 8px solid #663399;
+}
+
+// Full Width Headers
+.pre-header.header {
+	background: #000;
+
+	p {
+		padding-top: 0;
+		padding-bottom: 0;
+	}
+
+	a {
+		color: #ffffff;
+		text-decoration: underline;
+	}
+}
+
+.header {
+  background: #8a8a8a;
+}
+
+.header .columns {
+  padding-bottom: 0;
+}
+
+.header p {
+  color: #ffffff;
+  padding-top: 15px;
+	font-size: 12px;
+}
+
+.header .wrapper-inner {
+  padding-top: 20px;
+}
+
+.header .container {
+  background: transparent;
+}
+
+th.columns.logo-container {
+	display: table-cell !important;
+	width: 98px !important;
+	padding-left: 0 !important;
+	padding-right: 0 !important;
+}
+
+table.body .columns.logo-side {
+	display: table-cell !important;
+	width: auto !important;
+	padding: 0 !important;
+	background-color: $primary-color;
+
+	.row {
+		height: 47px;
+	}
+
+	.black {
+		background-color: #000000;
+	}
+}
+
+.logo {
+	min-width: 100% !important;
+}
+
+// Pump Clip
+.pump-clip,
+.pump-clip .container {
+	background: $primary-color;
+
+	.columns {
+		padding-bottom: 0;
+	}
+}
+
+// Main body
+.body-copy,
+.body-copy .container {
+	background: $primary-color-off;
+
+	h1, p {
+		color: #ffffff;
+		text-align: center;
+	}
+
+	h1 {
+		text-transform: uppercase;
+	}
+
+	a {
+		color: #ffffff;
+		text-decoration: underline;
+	}
+
+	.lead {
+		font-weight: bold;
+	}
+}
+
+// Availability
+.availability {
+	background: #ffffff;
+}
+
+.availability-header {
+	color: $primary-color;
+	text-align: center;
+	text-transform: uppercase;
+}
+
+// Footer
+.footer,
+.footer .container {
+	background: #000000;
+
+	h3 {
+		margin-bottom: 0;
+		color: #ffffff;
+		font-size: 20px;
+		text-align: center;
+		text-transform: uppercase;
+	}
+
+	a {
+		color: #ffffff;
+		text-decoration: underline;
+	}
+
+	.tagline,
+	.social {
+		padding-bottom: 0;
+	}
+}
+
+// Social Media
+table.button.facebook table td {
+  background: #3B5998 !important;
+  border-color: #3B5998;
+}
+
+table.button.twitter table td {
+  background: #1daced !important;
+  border-color: #1daced;
+}
+
+table.button.google table td {
+  background: #DB4A39 !important;
+  border-color: #DB4A39;
+}
+
+.wrapper.secondary {
+  background: #f3f3f3;
+}
